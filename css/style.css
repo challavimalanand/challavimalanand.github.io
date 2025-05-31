@@ -147,6 +147,9 @@ h2 {
 .experience-item ul {
     margin-left: 1.5rem;
     margin-top: 0.5rem;
+}
+
+.experience ul {
     text-align: justify;
 }
 
