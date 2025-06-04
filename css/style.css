@@ -5,23 +5,70 @@
 }
 
 body {
-    font-family: 'Libre Baskerville', Georgia, serif;
+    font-family: 'Calibri', sans-serif;
+    font-size: 18px;
     line-height: 1.6;
     color: #2c3e50;
     background-color: #f5f5f5;
 }
 
 /* Banner Section */
-.banner-section {
+.banner {
+    position: relative;
     width: 100%;
-    margin-bottom: 2rem;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
-.banner-image {
+.banner img:first-of-type {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 300px;
+    height: 100%;
     object-fit: cover;
-    display: block;
+    z-index: 1;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+/* Flexible Overlay Image Class */
+.overlay-image {
+    position: absolute;
+    z-index: 10;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/* Profile Image Specific Styling */
+.profile-img {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    z-index: 10;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    object-fit: cover;
 }
 
 .container {
@@ -38,13 +85,14 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-top: 10px;
 }
 
 /* Page Header Styling */
 .page-header {
     text-align: center;
-    margin-bottom: 3rem;
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
     border-bottom: 1px solid #e2e8f0;
 }
 
@@ -182,6 +230,9 @@ h2 {
 }
 
 @media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
     .container {
         padding: 1rem;
     }
@@ -194,7 +245,13 @@ h2 {
         grid-template-columns: 1fr;
     }
 
-    .banner-image {
-        height: 200px;
+    .banner {
+        height: 300px;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+        top: 15px;
     }
 }
