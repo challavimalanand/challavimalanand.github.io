@@ -11,61 +11,57 @@ body {
     background-color: #f5f5f5;
 }
 
-.container {
-    display: flex;
-    min-height: 100vh;
+/* Banner Section */
+.banner-section {
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
-/* Left Side - Photo Section */
-.photo-section {
-    width: 35%;
-    position: fixed;
-    height: 100vh;
-    background-color: #1a365d;
+.banner-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    min-height: 100vh;
     padding: 2rem;
 }
 
-.photo-container {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-bottom: 2rem;
-    border: 5px solid #fff;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+.content-section {
+    max-width: 800px;
+    width: 100%;
+    padding: 4rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-.photo-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+/* Page Header Styling */
+.page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e2e8f0;
 }
 
 .social-links {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .social-links a {
-    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    color: #2b6cb0;
     font-size: 1.5rem;
-    margin: 0 15px;
     transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-    color: #cbd5e0;
-}
-
-/* Right Side - Content Section */
-.content-section {
-    width: 65%;
-    margin-left: 35%;
-    padding: 4rem;
-    background-color: white;
+    color: #1a365d;
 }
 
 header {
@@ -185,31 +181,20 @@ h2 {
     background-color: #1a365d;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column;
-    }
-
-    .photo-section {
-        position: relative;
-        width: 100%;
-        height: auto;
-        padding: 2rem;
+        padding: 1rem;
     }
 
     .content-section {
-        width: 100%;
-        margin-left: 0;
         padding: 2rem;
-    }
-
-    .photo-container {
-        width: 200px;
-        height: 200px;
     }
 
     .expertise-grid {
         grid-template-columns: 1fr;
+    }
+
+    .banner-image {
+        height: 200px;
     }
 }
