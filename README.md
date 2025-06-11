@@ -1,5 +1,2 @@
 # challavimalanand.github.io
-portfolio website
-
-
-test
+Vimal Patents and Trademarks
