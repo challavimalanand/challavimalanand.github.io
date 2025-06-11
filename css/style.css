@@ -53,6 +53,28 @@ body {
     color: rgb(47, 36, 29);
 }
 
+/* Banner Section */
+.banner-section {
+    width: 100%;
+    margin-top: 70px; /* Account for fixed navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgb(248, 246, 241);
+}
+
+.banner-image {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    max-height: 300px; /* Increased height for better visibility */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
 /* Hero Section */
 .hero-section {
     min-height: 100vh;
@@ -60,7 +82,7 @@ body {
     position: relative;
     display: flex;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 40px; /* Reduced since banner is now above */
 }
 
 .hero-background {
@@ -300,6 +322,66 @@ body {
     opacity: 0.7;
 }
 
+/* WhatsApp Link Styling */
+.whatsapp-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #25D366 !important;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-link:hover {
+    opacity: 0.8;
+    transform: translateY(-1px);
+}
+
+.whatsapp-link i {
+    font-size: 20px;
+}
+
+/* Email Link Styling */
+.email-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #666666 !important;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.email-link:hover {
+    opacity: 0.8;
+    transform: translateY(-1px);
+}
+
+.email-link i {
+    font-size: 18px;
+}
+
+/* LinkedIn Link Styling */
+.linkedin-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #0077B5 !important;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.linkedin-link:hover {
+    opacity: 0.8;
+    transform: translateY(-1px);
+}
+
+.linkedin-link i {
+    font-size: 20px;
+}
+
 /* Footer */
 .footer {
     background-color: rgb(47, 36, 29);
@@ -320,6 +402,11 @@ body {
 
 /* Responsive Design */
 @media (max-width: 1200px) {
+    .banner-image {
+        max-height: 280px;
+        width: 100%;
+    }
+    
     .hero-content {
         max-width: 1000px;
         gap: 40px;
@@ -352,6 +439,11 @@ body {
 }
 
 @media (max-width: 968px) {
+    .banner-image {
+        max-height: 250px;
+        width: 100%;
+    }
+    
     .hero-content {
         flex-direction: column;
         text-align: center;
@@ -417,6 +509,15 @@ body {
 }
 
 @media (max-width: 768px) {
+    .banner-section {
+        padding: 15px 0;
+    }
+    
+    .banner-image {
+        max-height: 200px;
+        width: 100%;
+    }
+    
     .navbar {
         padding: 0 10px;
     }
@@ -487,6 +588,11 @@ body {
 }
 
 @media (max-width: 480px) {
+    .banner-image {
+        max-height: 150px;
+        width: 100%;
+    }
+    
     .hero-description {
         font-size: 20px;
     }
