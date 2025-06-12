@@ -296,7 +296,7 @@ body {
 }
 
 .part-content p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
     color: rgb(47, 36, 29);
     margin-bottom: 15px;
@@ -304,18 +304,6 @@ body {
     border: none !important;
     outline: none !important;
     text-align: justify;
-}
-
-.part-content p:last-child {
-    margin-bottom: 0;
-}
-
-.part-content p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: rgb(47, 36, 29);
-    margin-bottom: 15px;
-    font-weight: 400;
 }
 
 .part-content p:last-child {
@@ -712,7 +700,7 @@ body {
     }
 
     .part-content p {
-        font-size: 16px;
+        font-size: 17px; /* Increased from 16px to 17px for mobile */
         margin-bottom: 12px;
         text-align: justify;
     }
@@ -782,7 +770,7 @@ body {
     }
 
     .part-content p {
-        font-size: 14px;
+        font-size: 16px; /* Increased from 14px to 16px for small screens */
         margin-bottom: 10px;
         text-align: justify;
     }
