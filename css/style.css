@@ -57,11 +57,11 @@ body {
 /* Banner Section */
 .banner-section {
     width: 100%;
-    margin-top: 70px; /* Account for fixed navbar */
+    margin-top: 0; /* Removed margin since navbar is gone */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
+    padding: 0; /* Removed all padding */
     background-color: rgb(248, 246, 241);
 }
 
@@ -78,12 +78,11 @@ body {
 
 /* Hero Section */
 .hero-section {
-    min-height: 100vh;
     background-color: rgb(248, 246, 241);
     position: relative;
     display: flex;
-    align-items: center;
-    padding-top: 40px; /* Reduced since banner is now above */
+    align-items: flex-start; /* Changed from center to flex-start */
+    padding-top: 0; /* Removed padding-top */
 }
 
 .hero-background {
@@ -101,7 +100,7 @@ body {
     z-index: 2;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 20px 40px 0 40px; /* Added 20px top padding for spacing */
     display: flex;
     align-items: center;
     gap: 60px;
@@ -182,7 +181,7 @@ body {
     font-weight: 700;
     color: rgb(47, 36, 29);
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px; /* Reduced from 40px to 20px */
     line-height: 1.1;
     letter-spacing: -0.03em;
 }
@@ -190,7 +189,7 @@ body {
 /* About Section */
 .about-section {
     background-color: rgb(219, 214, 198);
-    padding: 80px 0;
+    padding: 40px 0; /* Reduced from 80px to 40px */
 }
 
 .about-content {
@@ -214,11 +213,7 @@ body {
 /* Why Us Sections */
 .why-us-section {
     background-color: rgb(248, 246, 241);
-    padding: 80px 0;
-}
-
-.why-us-section:nth-of-type(even) {
-    background-color: rgb(219, 214, 198);
+    padding: 40px 0; /* Reduced from 80px to 40px */
 }
 
 .why-us-content {
@@ -330,7 +325,7 @@ body {
 /* Services Section */
 .services-section {
     background-color: rgb(248, 246, 241);
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .services-grid {
@@ -390,7 +385,7 @@ body {
 /* Contact Section */
 .contact-section {
     background-color: rgb(219, 214, 198);
-    padding: 80px 0;
+    padding: 40px 0; /* Reduced from 80px to 40px */
 }
 
 .contact-content {
@@ -799,12 +794,75 @@ body {
     .service-list li {
         font-size: 20px;
     }
-    
+
     .hero-text {
         padding: 20px 15px;
     }
-    
+
     .section-container {
         padding: 0 15px;
+    }
+}
+
+/* Floating WhatsApp Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-float-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    animation: pulse 2s infinite;
+}
+
+.whatsapp-float-btn:hover {
+    background-color: #128C7E;
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+.whatsapp-float-btn i {
+    font-size: 28px;
+    color: white;
+}
+
+/* Pulse animation for WhatsApp button */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(37, 211, 102, 0.7);
+    }
+    70% {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3), 0 0 0 10px rgba(37, 211, 102, 0);
+    }
+    100% {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(37, 211, 102, 0);
+    }
+}
+
+/* Responsive adjustments for WhatsApp button */
+@media (max-width: 768px) {
+    .whatsapp-float {
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .whatsapp-float-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .whatsapp-float-btn i {
+        font-size: 24px;
     }
 }
