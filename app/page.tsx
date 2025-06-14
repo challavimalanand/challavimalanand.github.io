@@ -132,7 +132,7 @@ export default function AdvocatePortfolio() {
             >
               <div className="relative aspect-[4/5] bg-gradient-to-br from-blue-100 to-indigo-200 rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="{https://i.pinimg.com/originals/bb/e6/c6/bbe6c631ecc15d48071a91d8668cd494.jpg}"
+                  src="/Vimal_headshot.jpg"
                   alt="Advocate Challa Vimalanand - Professional Legal Services"
                   fill
                   className="object-cover"
