@@ -663,7 +663,7 @@ function ContactSection() {
                   width="100%"
                   height="300"
                   style={{ border: 0 }}
-                  allowFullScreen=""
+                  allowFullScreen={true}
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Office Location - G1, VIJAY TEJA RESIDENCY, EAST ANANDBAGH, MALKAJGIRI, Hyderabad"
