@@ -608,8 +608,16 @@ function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900">Phone</h4>
-                  <p className="text-gray-600">+91 [Phone Number]</p>
+                  <a
+                    href="https://wa.me/919492030822"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800 transition-colors duration-200 font-medium"
+                  >
+                    Watsapp
+                  </a>
                   <p className="text-sm text-gray-500">Available Mon-Sat, 9:00 AM - 6:00 PM</p>
+                  <p className="text-sm text-green-600 mt-1">Click to chat on WhatsApp</p>
                 </div>
               </div>
 
@@ -619,8 +627,14 @@ function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900">Email</h4>
-                  <p className="text-gray-600">[email@example.com]</p>
-                  <p className="text-sm text-gray-500">Response within 24 hours</p>
+                  <a
+                    href="mailto:challavimalanand@gmail.com"
+                    className="text-blue-600 hover:text-blue-800 transition-colors duration-200 font-medium"
+                  >
+                    challavimalanand@gmail.com
+                  </a>
+                  
+                  <p className="text-sm text-blue-600 mt-1">Click to send email</p>
                 </div>
               </div>
 
@@ -631,12 +645,39 @@ function ContactSection() {
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900">Office Address</h4>
                   <p className="text-gray-600">
-                    [Office Address]<br />
+                  G1, VIJAY TEJA RESIDENCY, EAST ANANDBAGH, MALKAJGIRI<br />
                     Hyderabad, Telangana<br />
-                    India - [PIN Code]
+                    India - 500047
                   </p>
                   <p className="text-sm text-gray-500">By appointment only</p>
                 </div>
+              </div>
+            </div>
+
+            {/* Google Maps Widget */}
+            <div className="mt-6">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">Find Us on Map</h4>
+              <div className="rounded-lg overflow-hidden shadow-md">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.5!2d78.5!3d17.45!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sG1%2C%20VIJAY%20TEJA%20RESIDENCY%2C%20EAST%20ANANDBAGH%2C%20MALKAJGIRI%2C%20Hyderabad%2C%20Telangana%20500047%2C%20India!5e0!3m2!1sen!2sin!4v1234567890!5m2!1sen!2sin"
+                  width="100%"
+                  height="300"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Office Location - G1, VIJAY TEJA RESIDENCY, EAST ANANDBAGH, MALKAJGIRI, Hyderabad"
+                ></iframe>
+              </div>
+              <div className="mt-2 text-center">
+                <a
+                  href="https://maps.app.goo.gl/AvJHPFfC9dqMFKCG6?g_st=aw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800 transition-colors duration-200 text-sm font-medium"
+                >
+                  Open in Google Maps →
+                </a>
               </div>
             </div>
 
@@ -644,12 +685,8 @@ function ContactSection() {
               <h4 className="text-lg font-semibold text-gray-900 mb-3">Office Hours</h4>
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Monday - Friday</span>
+                  <span className="text-gray-600">Monday - Saturday</span>
                   <span className="text-gray-900">9:00 AM - 6:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-600">Saturday</span>
-                  <span className="text-gray-900">9:00 AM - 2:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Sunday</span>
