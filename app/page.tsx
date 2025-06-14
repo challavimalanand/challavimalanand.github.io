@@ -617,17 +617,16 @@ function ContactSection() {
                   <Phone className="h-6 w-6 text-blue-600" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-semibold text-gray-900">Phone</h4>
+                  <h4 className="text-lg font-semibold text-gray-900">Watsapp</h4>
                   <a
                     href="https://wa.me/919492030822"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-800 transition-colors duration-200 font-medium"
                   >
-                    Watsapp
+                    Click to Chat on Watsapp
                   </a>
                   <p className="text-sm text-gray-500">Available Mon-Sat, 9:00 AM - 6:00 PM</p>
-                  <p className="text-sm text-green-600 mt-1">Click to chat on WhatsApp</p>
                 </div>
               </div>
 
