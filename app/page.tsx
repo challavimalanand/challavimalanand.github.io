@@ -132,7 +132,7 @@ export default function AdvocatePortfolio() {
             >
               <div className="relative aspect-[4/5] bg-gradient-to-br from-blue-100 to-indigo-200 rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/Vimal_headshot.jpg"
+                  src="/images/Vimal_headshot.jpg"
                   alt="Advocate Challa Vimalanand - Professional Legal Services"
                   fill
                   className="object-cover"
@@ -212,6 +212,24 @@ function AboutSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="space-y-6"
           >
+            {/* Professional Photo for About Section */}
+            <div className="flex items-start space-x-6 mb-8">
+              <div className="relative w-24 h-24 bg-gradient-to-br from-blue-100 to-indigo-200 rounded-xl overflow-hidden shadow-lg flex-shrink-0">
+                <Image
+                  src="/images/vimalanand.jpg"
+                  alt="Advocate Challa Vimalanand"
+                  fill
+                  className="object-cover object-center"
+                  sizes="96px"
+                />
+              </div>
+              <div className="flex-grow">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Advocate Challa Vimalanand</h3>
+                <p className="text-blue-600 font-medium">Licensed Patent Agent & Legal Practitioner</p>
+                <p className="text-gray-600 text-sm mt-1">Hyderabad, Telangana</p>
+              </div>
+            </div>
+
             <div className="prose prose-lg text-gray-700">
               <p>
                 I am Advocate Challa Vimalanand, a dedicated legal professional based in Hyderabad, Telangana. 
