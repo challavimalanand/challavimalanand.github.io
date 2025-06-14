@@ -21,6 +21,7 @@ import {
   Calendar,
   Building
 } from 'lucide-react';
+import WhatsAppButton from '../components/whatsapp-button';
 
 export default function AdvocatePortfolio() {
   const [activeSection, setActiveSection] = useState('home');
@@ -179,9 +180,18 @@ export default function AdvocatePortfolio() {
           </div>
         </div>
       </footer>
+
+{/* WhatsApp Floating Button */}
+<WhatsAppButton 
+phoneNumber="+919492030822"
+message="Hello Advocate Challa Vimalanand! I would like to inquire about your legal services and schedule a consultation."
+/>
+
     </div>
   );
 }
+
+
 
 function AboutSection() {
   const [ref, inView] = useInView({
