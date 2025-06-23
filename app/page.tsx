@@ -23,7 +23,6 @@ import {
 } from 'lucide-react';
 import WhatsAppButton from '../components/whatsapp-button';
 import DisclaimerPage from '../components/disclaimer-page';
-import DisagreementPage from '../components/disagreement-page';
 
 export default function AdvocatePortfolio() {
   const [activeSection, setActiveSection] = useState('home');
@@ -101,21 +100,6 @@ export default function AdvocatePortfolio() {
           <p className="text-gray-600">Loading...</p>
         </motion.div>
       </div>
-    );
-  }
-
-  // Show disagreement page
-  if (showDisagreement) {
-    return <DisagreementPage onBack={handleBackToDisclaimer} />;
-  }
-
-  // Show disclaimer if not accepted
-  if (!disclaimerAccepted) {
-    return (
-      <DisclaimerPage 
-        onAgree={handleAgree} 
-        onDisagree={handleDisagree} 
-      />
     );
   }
 
