@@ -1,88 +1,42 @@
-# Advocate Challa Vimalanand Portfolio
+# Advocate Challa Vimalanand - Professional Legal Services Portfolio
 
-This is a NextJS portfolio website for Advocate Challa Vimalanand, configured for deployment on GitHub Pages.
+This is the portfolio website for **Advocate Challa Vimalanand**, a licensed legal practitioner and patent agent based in Hyderabad, Telangana, India. 
 
-## 🚀 Quick Deployment to GitHub Pages
+## 🏛️ About Advocate Challa Vimalanand
 
-### Step 1: Create GitHub Repository
-```bash
-# Option A: Using GitHub CLI (if authenticated)
-gh repo create advocate_portfolio --public --source=. --remote=origin --push
+**Advocate Challa Vimalanand** is a dedicated legal professional with a unique background combining Legal and Technical expertise
+- **Licensed Patent Agent** specializing in intellectual property matters
+- Based in **Hyderabad, Telangana**, serving clients across the region
 
-# Option B: Manual setup
-# 1. Go to https://github.com/new
-# 2. Create repository named "advocate_portfolio"
-# 3. Add remote and push:
-git remote add origin https://github.com/YOUR_USERNAME/advocate_portfolio.git
-git push -u origin main
+## ⚖️ Legal Services Offered
+
+### Core Practice Areas:
+- **Civil Law** - Comprehensive civil litigation, property disputes, contract matters, and civil rights cases
+- **Land Litigation** - Specialized expertise in property disputes, title verification, and real estate legal matters
+- **Marriage Dispute Cases** - Sensitive handling of family law, divorce proceedings, custody, and matrimonial disputes
+- **Patent & IP Services** - Licensed Patent Agent services for intellectual property protection and patent applications
+- **Trademark Services** - Trademark registration, protection, and related IP matters
+- **Banking and Contracts** - Commercial law, banking disputes, and contract negotiations
+
+### Service Features:
+- Property disputes and title verification
+- Contract law and civil rights representation
+- Divorce proceedings and child custody cases
+- Patent filing and IP protection
+- Trademark registration and copyright matters
+- Real estate legal consultation
+- Commercial and banking law
+- Corporate legal advisory and compliance services
+
+## 📍 Contact Information
+
+**Office Address:**
+```
+G1, VIJAY TEJA RESIDENCY
+EAST ANANDBAGH, MALKAJGIRI
+Hyderabad, Telangana, India - 500047
 ```
 
-### Step 2: Enable GitHub Pages
-1. Go to your repository on GitHub
-2. Click **Settings** tab
-3. Scroll to **Pages** section
-4. Under **Source**, select **GitHub Actions**
-5. The workflow will automatically trigger and deploy your site
+**© 2025 Advocate Challa Vimalanand. All rights reserved.**
 
-### Step 3: Access Your Website
-Your website will be available at:
-```
-https://YOUR_USERNAME.github.io/advocate_portfolio/
-```
-
-## 🔧 Configuration Details
-
-The website is configured with:
-- ✅ Static export enabled
-- ✅ GitHub Pages compatible paths (`basePath: '/advocate_portfolio'`)
-- ✅ Optimized images for static hosting
-- ✅ GitHub Actions workflow for automatic deployment
-- ✅ `.nojekyll` file for proper asset serving
-
-## 🛠️ Local Development
-
-```bash
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Test production build locally
-npx serve out -s
-```
-
-## 📁 Project Structure
-
-```
-app/
-├── .github/workflows/pages.yml  # GitHub Actions deployment
-├── app/                         # Next.js app directory
-├── components/                  # React components
-├── lib/                        # Utility functions
-├── next.config.js              # Next.js configuration
-├── package.json                # Dependencies and scripts
-└── README.md                   # This file
-```
-
-## 🔄 Automatic Deployment
-
-Every push to the `main` branch will automatically:
-1. Build the NextJS application
-2. Generate static files
-3. Deploy to GitHub Pages
-4. Update your live website
-
-## 📞 Support
-
-For any issues with deployment, check:
-1. GitHub Actions tab for build logs
-2. Repository Settings > Pages for configuration
-3. Browser console for any runtime errors
-
----
-
-**Note**: The first deployment may take a few minutes. Subsequent deployments are typically faster.
+*Professional Legal Services | Hyderabad, Telangana, India*

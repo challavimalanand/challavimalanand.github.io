@@ -26,7 +26,7 @@ export default function DisclaimerPage({ onAgree }: DisclaimerPageProps) {
             className="flex items-center justify-center space-x-3 mb-4"
           >
             <Scale className="h-10 w-10" />
-            <h1 className="text-3xl font-bold">Advocate Challa Vimalanand</h1>
+            <h1 className="text-3xl font-bold">Disclaimer</h1>
           </motion.div>
           <motion.p
             initial={{ opacity: 0, y: -10 }}
@@ -34,7 +34,6 @@ export default function DisclaimerPage({ onAgree }: DisclaimerPageProps) {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-blue-100 text-lg"
           >
-            Legal Services Disclaimer
           </motion.p>
         </div>
 
@@ -95,11 +94,7 @@ export default function DisclaimerPage({ onAgree }: DisclaimerPageProps) {
             </motion.div>
 
             {/* Footer Note */}
-            <div className="text-center text-sm text-gray-500 pt-4">
-              <p>
-                Professional legal consultation available upon request.
-              </p>
-            </div>
+
           </motion.div>
         </div>
       </motion.div>

@@ -430,7 +430,38 @@ function ServicesSection() {
       icon: Award,
       title: 'Patent & IP Services',
       description: 'Licensed Patent Agent services for intellectual property protection and patent applications.',
-      features: ['Patent Filing', 'IP Protection', 'Trademark Services', 'Copyright Matters']
+      features: [
+                         'Patent Drafting & Filing in India'
+                        ,'Patent Prosecution & Examination'
+                        ,'Patent Search & Prior Art Analysis'
+                        ,'Patent Portfolio Management'
+                        ,'Patent Opposition & Revocation'
+                        ,'Patent Litigation Support'
+                        ,'Patent Advisory & Consultation'
+                        ,'International Patent Filing (PCT)'
+                        ,'Patent Enforcement Services'
+      ]
+    },
+    {
+      icon: Award,
+      title: 'Trademarks',
+      description: 'Licensed for filing Trademarks.',
+      features: [
+                        'Trademark Search & Clearance'
+                        ,'Trademark Registration & Filing'
+                        ,'Trademark Prosecution & Response'
+                        ,'Trademark Opposition & Rectification'
+                        ,'Trademark Portfolio Management'
+                        ,'Trademark Licensing & Assignment'
+                        ,'Trademark Enforcement & Protection'
+                        ,'Brand Strategy & Advisory'
+      ]
+    },
+    {
+      icon: FileText,
+      title: 'Banking and Contracts',
+      description: 'Support in Banking and Contract Disputes',
+      features: ['SARFAESI Act', 'Company Act', 'Contract Disputes', 'Banking Disputes']
     }
   ];
 
@@ -489,167 +520,7 @@ function ServicesSection() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-center mt-12"
         >
-          <div className="bg-blue-600 text-white p-8 rounded-xl">
-            <h3 className="text-2xl font-bold mb-4">Need Legal Consultation?</h3>
-            <p className="text-blue-100 mb-6">
-              Get professional legal advice tailored to your specific situation. Contact me for a consultation.
-            </p>
-            <button
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-white text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
-            >
-              Schedule Consultation
-            </button>
-          </div>
         </motion.div>
-      </div>
-    </section>
-  );
-}
-
-function ExperienceSection() {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
-
-  const timeline = [
-    {
-      year: '2021 - Present',
-      title: 'Advocate',
-      organization: 'Legal Practice',
-      description: 'Practicing advocate in Hyderabad specializing in civil law, land litigation, property disputes, and marriage dispute cases across Telangana.',
-      icon: Scale
-    },
-    {
-      year: '2020',
-      title: 'Licensed Patent Agent',
-      organization: 'Patent Office, India',
-      description: 'Obtained license to practice as Patent Agent, enabling specialized intellectual property services.',
-      icon: Award
-    },
-    {
-      year: '2012 - 2021',
-      title: 'Mechanical Engineer',
-      organization: 'Engineering Industry',
-      description: '9 years of engineering experience providing technical expertise and problem-solving skills.',
-      icon: Building
-    }
-  ];
-
-  const qualifications = [
-    {
-      title: 'Law Degree',
-      description: 'Bachelor of Laws (LL.B)',
-      icon: BookOpen
-    },
-    {
-      title: 'Engineering Degree',
-      description: 'Mechanical Engineering',
-      icon: Building
-    },
-    {
-      title: 'Patent Agent License',
-      description: 'Registered Patent Agent',
-      icon: Award
-    },
-    {
-      title: 'Bar Council Registration',
-      description: 'Enrolled Advocate',
-      icon: Scale
-    }
-  ];
-
-  return (
-    <section id="experience" className="py-20 bg-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          ref={ref}
-          initial={{ opacity: 0, y: 50 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8 }}
-          className="text-center mb-16"
-        >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Professional Experience & Qualifications in Hyderabad</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Comprehensive legal and technical background serving clients in Hyderabad, Telangana with 12+ years combined experience
-          </p>
-        </motion.div>
-
-        <div className="grid lg:grid-cols-2 gap-12">
-          {/* Timeline */}
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Professional Timeline</h3>
-            <div className="space-y-8">
-              {timeline.map((item, index) => (
-                <div key={index} className="flex space-x-4">
-                  <div className="flex-shrink-0">
-                    <div className="bg-blue-100 p-3 rounded-full">
-                      <item.icon className="h-6 w-6 text-blue-600" />
-                    </div>
-                  </div>
-                  <div className="flex-grow">
-                    <div className="bg-gray-50 p-6 rounded-lg">
-                      <div className="text-sm text-blue-600 font-medium mb-1">{item.year}</div>
-                      <h4 className="text-lg font-bold text-gray-900 mb-1">{item.title}</h4>
-                      <div className="text-sm text-gray-600 mb-3">{item.organization}</div>
-                      <p className="text-gray-700">{item.description}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </motion.div>
-
-          {/* Qualifications */}
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.4 }}
-          >
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Qualifications & Certifications</h3>
-            <div className="space-y-6">
-              {qualifications.map((qual, index) => (
-                <div key={index} className="bg-gray-50 p-6 rounded-lg hover:bg-gray-100 transition-colors">
-                  <div className="flex items-center space-x-4">
-                    <div className="bg-blue-100 p-3 rounded-lg">
-                      <qual.icon className="h-6 w-6 text-blue-600" />
-                    </div>
-                    <div>
-                      <h4 className="text-lg font-bold text-gray-900">{qual.title}</h4>
-                      <p className="text-gray-600">{qual.description}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <div className="mt-8 bg-blue-50 p-6 rounded-lg">
-              <h4 className="text-lg font-bold text-gray-900 mb-4">Areas of Expertise</h4>
-              <div className="grid grid-cols-2 gap-3">
-                {[
-                  'Civil Litigation',
-                  'Property Law',
-                  'Family Law',
-                  'Patent Law',
-                  'Contract Law',
-                  'Real Estate',
-                  'IP Rights',
-                  'Legal Consultation'
-                ].map((area, index) => (
-                  <div key={index} className="flex items-center space-x-2">
-                    <CheckCircle className="h-4 w-4 text-green-600" />
-                    <span className="text-sm text-gray-700">{area}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </motion.div>
-        </div>
       </div>
     </section>
   );
