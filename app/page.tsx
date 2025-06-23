@@ -787,9 +787,9 @@ function ContactSection() {
       };
 
       // Replace these with your actual EmailJS credentials
-      const SERVICE_ID = 'YOUR_SERVICE_ID';
-      const TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
-      const PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+      const SERVICE_ID = 'service_fs38t4i';
+      const TEMPLATE_ID = 'template_7ifxjlc';
+      const PUBLIC_KEY = 'CwoE-yxp7kaZCun0Q';
 
       await emailjs.send(
         SERVICE_ID,
