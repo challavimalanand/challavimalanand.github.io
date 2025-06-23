@@ -103,6 +103,15 @@ export default function AdvocatePortfolio() {
     );
   }
 
+  // Show disclaimer if not accepted
+  if (!disclaimerAccepted) {
+    return (
+      <DisclaimerPage 
+        onAgree={handleAgree} 
+      />
+    );
+  }
+
   // Show main website content with smooth transition
   return (
     <motion.div
