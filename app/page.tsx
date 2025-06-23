@@ -290,7 +290,7 @@ function AboutSection() {
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About Advocate Challa Vimalanand</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Leading legal professional in Hyderabad, Telangana with expertise in civil law, land litigation, marriage disputes, and patent services
+          leading Advocate and Registered Patent Agent (IN/PA 6235) in Hyderabad, Telangana with expertise in civil law, land litigation, marriage disputes, and patent services & Trademarks
           </p>
         </motion.div>
 
@@ -331,8 +331,7 @@ function AboutSection() {
                 valuable technical insights for complex litigation and patent-related legal matters.
               </p>
               <p>
-                I am committed to providing personalized, effective legal solutions to clients in Hyderabad and Telangana, 
-                ensuring their rights are protected with the highest standards of professional legal service and ethical practice.
+              Whether you are seeking patent filing, trademark registration, design protection, or strategic IP advice in Hyderabad, our experienced legal team delivers exceptional service tailored to your business needs.
               </p>
             </div>
           </motion.div>
@@ -442,7 +441,7 @@ function ServicesSection() {
     {
       icon: Award,
       title: 'Trademarks',
-      description: 'Licensed for filing Trademarks.',
+      description: 'Our deep understanding of trademark law ensures smooth registration and lasting protection.We handle each step — from search to renewal — with precision and foresight.We proactively monitor deadlines and risks to keep your brand secure.',
       features: [
                         'Trademark Search & Clearance'
                         ,'Trademark Registration & Filing'
