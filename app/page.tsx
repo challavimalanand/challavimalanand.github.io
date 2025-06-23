@@ -912,16 +912,16 @@ function ContactSection() {
             <div className="mt-6">
               <h4 className="text-lg font-semibold text-gray-900 mb-3">Find Us on Map</h4>
               <div className="rounded-lg overflow-hidden shadow-md">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.5!2d78.5!3d17.45!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sG1%2C%20VIJAY%20TEJA%20RESIDENCY%2C%20EAST%20ANANDBAGH%2C%20MALKAJGIRI%2C%20Hyderabad%2C%20Telangana%20500047%2C%20India!5e0!3m2!1sen!2sin!4v1234567890!5m2!1sen!2sin"
-                  width="100%"
-                  height="300"
-                  style={{ border: 0 }}
-                  allowFullScreen={true}
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Office Location - G1, VIJAY TEJA RESIDENCY, EAST ANANDBAGH, MALKAJGIRI, Hyderabad"
-                ></iframe>
+              <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d572.5769124492285!2d78.54444844465046!3d17.457320098057096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9b95739c5981%3A0x429986de8ee97499!2sVijay%20Teja%20Residency%2C%20ANR%20Nagar%20Colony%2C%20East%20Anandbagh%2C%20Anandbagh%2C%20Moula%20Ali%2C%20Secunderabad%2C%20Telangana%20500047!5e1!3m2!1sen!2sin!4v1750694441210!5m2!1sen!2sin" 
+              width="600" 
+              height="450" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Office Location - G1, VIJAY TEJA RESIDENCY, EAST ANANDBAGH, MALKAJGIRI, Hyderabad"
+              ></iframe>
               </div>
               <div className="mt-2 text-center">
                 <a
