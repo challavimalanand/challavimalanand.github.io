@@ -52,9 +52,7 @@ export default function DisclaimerPage({ onAgree }: DisclaimerPageProps) {
               <p className="text-blue-800 leading-relaxed mb-4">
                 This website is in compliance with the Bar Council of India rules. The information provided on this website is solely for informational purposes and does not constitute legal advice.
               </p>
-              <p className="text-blue-800 leading-relaxed">
-                Advocate Challa Vimalanand is a practicing advocate enrolled with the Bar Council and is authorized to practice law in India.
-              </p>
+
             </div>
 
             {/* Main Content */}
@@ -64,45 +62,20 @@ export default function DisclaimerPage({ onAgree }: DisclaimerPageProps) {
               </p>
 
               <p>
-                <strong>User Initiated Visit:</strong> By accessing this website, you acknowledge that you are seeking information about Advocate Challa Vimalanand's legal services of your own accord and that there has been no form of solicitation, advertisement, or inducement by or on behalf of the advocate.
+                <strong>User Initiated Visit:</strong> By accessing this website, you acknowledge that you are seeking information about us for your ow information and use.
               </p>
 
               <p>
-                <strong>No Lawyer-Client Relationship:</strong> The transmission and receipt of information contained on this website does not form or constitute a lawyer-client relationship between you and Advocate Challa Vimalanand.
+                <strong>No Lawyer-Client Relationship:</strong> The transmission and receipt of information contained on this website does not form or constitute a lawyer-client relationship.
               </p>
 
-              <p>
-                <strong>Confidentiality:</strong> Any information transmitted through this website may not be secure and may not be protected by attorney-client privilege. Please do not include confidential information until a formal attorney-client relationship has been established.
-              </p>
-
-              <p>
-                <strong>Legal Advice:</strong> For specific legal advice pertaining to your situation, please contact our office directly to schedule a consultation.
-              </p>
             </div>
 
             {/* Agreement Section */}
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
               <p className="text-gray-800 font-medium mb-4">
-                By clicking "I AGREE" below, you acknowledge that:
+                By clicking "I AGREE" below, you acknowledge that you have read and understood the above disclaimer
               </p>
-              <ul className="space-y-2 text-gray-700">
-                <li className="flex items-start space-x-2">
-                  <span className="text-blue-600 mt-1">•</span>
-                  <span>You have read and understood the above disclaimer</span>
-                </li>
-                <li className="flex items-start space-x-2">
-                  <span className="text-blue-600 mt-1">•</span>
-                  <span>You understand that this website is for informational purposes only</span>
-                </li>
-                <li className="flex items-start space-x-2">
-                  <span className="text-blue-600 mt-1">•</span>
-                  <span>Your visit to this website is self-initiated and not solicited</span>
-                </li>
-                <li className="flex items-start space-x-2">
-                  <span className="text-blue-600 mt-1">•</span>
-                  <span>No attorney-client relationship is formed by accessing this website</span>
-                </li>
-              </ul>
             </div>
 
             {/* Action Button */}
