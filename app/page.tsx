@@ -242,9 +242,6 @@ export default function AdvocatePortfolio() {
       {/* Services Section */}
       <ServicesSection />
 
-      {/* Experience Section */}
-      <ExperienceSection />
-
       {/* Contact Section */}
       <ContactSection />
 
