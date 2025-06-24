@@ -133,7 +133,6 @@ export default function AdvocatePortfolio() {
                 { id: 'home', label: 'Home' },
                 { id: 'about', label: 'About' },
                 { id: 'services', label: 'Services' },
-                { id: 'experience', label: 'Experience' },
                 { id: 'contact', label: 'Contact' }
               ].map((item) => (
                 <button
@@ -290,7 +289,7 @@ function AboutSection() {
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About Advocate Challa Vimalanand</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-          leading Advocate and Registered Patent Agent (IN/PA 6235) in Hyderabad, Telangana with expertise in civil law, land litigation, marriage disputes, and patent services & Trademarks
+          leading Advocate and Registered Patent Agent in Hyderabad, Telangana with expertise in civil law, land litigation, marriage disputes, and patent services & Trademarks
           </p>
         </motion.div>
 
@@ -367,7 +366,7 @@ function AboutSection() {
                 <div className="flex items-center space-x-3">
                   <Award className="h-8 w-8 text-purple-600" />
                   <div>
-                    <div className="text-lg font-bold text-purple-600">Licensed Patent Agent</div>
+                    <div className="text-lg font-bold text-purple-600">Licensed Patent Agent (IN/PA 6235) </div>
                     <div className="text-sm text-gray-600">Specialized IP Legal Services</div>
                   </div>
                 </div>
@@ -441,7 +440,7 @@ function ServicesSection() {
     {
       icon: Award,
       title: 'Trademarks',
-      description: 'Our deep understanding of trademark law ensures smooth registration and lasting protection.We handle each step — from search to renewal — with precision and foresight.We proactively monitor deadlines and risks to keep your brand secure.',
+      description: 'Our deep understanding of trademark law ensures smooth registration and lasting protection.We handle each step from search to renewal with precision and foresight.We proactively monitor deadlines and risks to keep your brand secure.',
       features: [
                         'Trademark Search & Clearance'
                         ,'Trademark Registration & Filing'
