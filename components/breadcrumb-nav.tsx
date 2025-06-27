@@ -48,15 +48,15 @@ export default function BreadcrumbNav({ activeSection, onSectionClick }: Breadcr
       transition={{ duration: 0.3 }}
       className="fixed top-20 left-0 right-0 z-40 bg-white/95 backdrop-blur-sm border-b border-gray-200 shadow-sm"
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-2 sm:py-3">
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink
                 onClick={() => onSectionClick('home')}
-                className="flex items-center space-x-1 text-blue-600 hover:text-blue-800 transition-colors cursor-pointer"
+                className="flex items-center space-x-1 text-blue-600 hover:text-blue-800 transition-colors cursor-pointer text-xs sm:text-sm"
               >
-                <Home className="h-4 w-4" />
+                <Home className="h-3 w-3 sm:h-4 sm:w-4" />
                 <span>Home</span>
               </BreadcrumbLink>
             </BreadcrumbItem>
@@ -64,10 +64,10 @@ export default function BreadcrumbNav({ activeSection, onSectionClick }: Breadcr
             {activeSection !== 'home' && (
               <>
                 <BreadcrumbSeparator>
-                  <ChevronRight className="h-4 w-4 text-gray-400" />
+                  <ChevronRight className="h-3 w-3 sm:h-4 sm:w-4 text-gray-400" />
                 </BreadcrumbSeparator>
                 <BreadcrumbItem>
-                  <BreadcrumbPage className="text-gray-900 font-medium">
+                  <BreadcrumbPage className="text-gray-900 font-medium text-xs sm:text-sm">
                     {sectionLabels[activeSection] || activeSection}
                   </BreadcrumbPage>
                 </BreadcrumbItem>
