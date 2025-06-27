@@ -24,6 +24,7 @@ import WhatsAppButton from '../components/whatsapp-button';
 import DisclaimerPage from '../components/disclaimer-page';
 import BreadcrumbNav from '../components/breadcrumb-nav';
 import MobileNav from '../components/mobile-nav';
+import StructuredData from '../components/structured-data';
 
 export default function AdvocatePortfolio() {
   const [activeSection, setActiveSection] = useState('home');
@@ -143,6 +144,11 @@ export default function AdvocatePortfolio() {
       transition={{ duration: 0.8 }}
       className="min-h-screen bg-white"
     >
+      {/* Structured Data for SEO */}
+      <StructuredData type="Person" />
+      <StructuredData type="LegalService" />
+      <StructuredData type="Organization" />
+
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
