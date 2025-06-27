@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -23,6 +22,7 @@ import {
 } from 'lucide-react';
 import WhatsAppButton from '../components/whatsapp-button';
 import DisclaimerPage from '../components/disclaimer-page';
+import BreadcrumbNav from '../components/breadcrumb-nav';
 
 export default function AdvocatePortfolio() {
   const [activeSection, setActiveSection] = useState('home');
@@ -85,6 +85,28 @@ export default function AdvocatePortfolio() {
       setActiveSection(sectionId);
     }
   };
+
+  // Update active section based on scroll position
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ['home', 'about', 'services', 'contact'];
+      const scrollPosition = window.scrollY + 100; // Offset for better detection
+
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const section = document.getElementById(sections[i]);
+        if (section) {
+          const sectionTop = section.offsetTop;
+          if (scrollPosition >= sectionTop) {
+            setActiveSection(sections[i]);
+            break;
+          }
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   // Show loading state briefly
   if (isLoading) {
@@ -149,6 +171,12 @@ export default function AdvocatePortfolio() {
           </div>
         </div>
       </nav>
+
+      {/* Breadcrumb Navigation */}
+      <BreadcrumbNav 
+        activeSection={activeSection} 
+        onSectionClick={scrollToSection} 
+      />
 
       {/* Hero Section */}
       <section id="home" className="pt-16 bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen flex items-center">
