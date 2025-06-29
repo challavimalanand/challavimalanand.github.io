@@ -267,7 +267,7 @@ export default function AdvocatePortfolio() {
               </div>
               <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-white p-4 sm:p-6 rounded-xl shadow-lg">
                 <div className="text-center">
-                  <div className="text-xl sm:text-2xl font-bold text-blue-600">12+</div>
+                  <div className="text-xl sm:text-2xl font-bold text-blue-600">15+</div>
                   <div className="text-xs sm:text-sm text-gray-600">Years Total Experience</div>
                 </div>
               </div>
@@ -362,7 +362,7 @@ function AboutSection() {
             <div className="prose prose-sm sm:prose-lg text-gray-700">
               <p>
                 I am Advocate Challa Vimalanand, a dedicated legal professional based in Hyderabad, Telangana. 
-                With 3+ years of experience as an advocate and 9+ years as a mechanical engineer, I bring a unique 
+                With 3+ years of experience as an advocate and 12+ years as a mechanical engineer, I bring a unique 
                 perspective to legal practice serving clients across Hyderabad, Secunderabad, and greater Telangana region.
               </p>
               <p>
