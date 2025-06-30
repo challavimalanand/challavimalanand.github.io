@@ -218,7 +218,7 @@ export default function AdvocatePortfolio() {
               <div className="space-y-4">
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
                   Experienced advocate in Hyderabad specializing in civil law, land litigation, property disputes, and marriage dispute cases. 
-                  Licensed Patent Agent with 3+ years legal practice and 9+ years engineering expertise serving clients across Telangana.
+                  Registered Patent Agent with 3+ years legal practice and 12+ years engineering expertise serving clients across Telangana.
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
@@ -228,7 +228,7 @@ export default function AdvocatePortfolio() {
                   </div>
                   <div className="flex items-center space-x-2 bg-white px-3 sm:px-4 py-2 rounded-lg shadow-sm">
                     <Award className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 flex-shrink-0" />
-                    <span className="text-xs sm:text-sm font-medium">Licensed Patent Agent</span>
+                    <span className="text-xs sm:text-sm font-medium">Registered Patent Agent</span>
                   </div>
                 </div>
               </div>
@@ -354,7 +354,7 @@ function AboutSection() {
               </div>
               <div className="flex-grow text-center sm:text-left">
                 <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">Advocate Challa Vimalanand</h3>
-                <p className="text-blue-600 font-medium text-sm sm:text-base">Licensed Patent Agent & Legal Practitioner</p>
+                <p className="text-blue-600 font-medium text-sm sm:text-base">Registered Patent Agent & Legal Practitioner</p>
                 <p className="text-gray-600 text-sm mt-1">Hyderabad, Telangana</p>
               </div>
             </div>
@@ -366,7 +366,7 @@ function AboutSection() {
                 perspective to legal practice serving clients across Hyderabad, Secunderabad, and greater Telangana region.
               </p>
               <p>
-                As a Licensed Patent Agent in Hyderabad, I specialize in intellectual property matters, civil law cases, 
+                As a Registered Patent Agent in Hyderabad, I specialize in intellectual property matters, civil law cases, 
                 land litigation disputes, property law, and marriage dispute resolution. My engineering background provides 
                 valuable technical insights for complex litigation and patent-related legal matters.
               </p>
@@ -397,7 +397,7 @@ function AboutSection() {
                 <div className="flex items-center space-x-3 mb-3">
                   <Building className="h-6 w-6 sm:h-8 sm:w-8 text-green-600" />
                   <div>
-                    <div className="text-xl sm:text-2xl font-bold text-green-600">9+</div>
+                    <div className="text-xl sm:text-2xl font-bold text-green-600">12+</div>
                     <div className="text-xs sm:text-sm text-gray-600">Years Engineering</div>
                   </div>
                 </div>
@@ -407,7 +407,7 @@ function AboutSection() {
                 <div className="flex items-center space-x-3">
                   <Award className="h-6 w-6 sm:h-8 sm:w-8 text-purple-600" />
                   <div>
-                    <div className="text-sm sm:text-lg font-bold text-purple-600">Licensed Patent Agent (IN/PA 6235) </div>
+                    <div className="text-sm sm:text-lg font-bold text-purple-600">egistred Patent Agent (IN/PA 6235) </div>
                     <div className="text-xs sm:text-sm text-gray-600">Specialized IP Legal Services</div>
                   </div>
                 </div>
