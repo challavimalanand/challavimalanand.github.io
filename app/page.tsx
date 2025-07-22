@@ -407,7 +407,7 @@ function AboutSection() {
                 <div className="flex items-center space-x-3">
                   <Award className="h-6 w-6 sm:h-8 sm:w-8 text-purple-600" />
                   <div>
-                    <div className="text-sm sm:text-lg font-bold text-purple-600">egistred Patent Agent (IN/PA 6235) </div>
+                    <div className="text-sm sm:text-lg font-bold text-purple-600">Registred Patent Agent (IN/PA 6235) </div>
                     <div className="text-xs sm:text-sm text-gray-600">Specialized IP Legal Services</div>
                   </div>
                 </div>
