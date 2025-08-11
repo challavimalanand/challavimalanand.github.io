@@ -61,7 +61,7 @@ export default function DisclaimerPage({ onAgree }: DisclaimerPageProps) {
               </p>
 
               <p>
-                <strong>User Initiated Visit:</strong> By accessing this website, you acknowledge that you are seeking information about us for your ow information and use.
+                <strong>User Initiated Visit:</strong> By accessing this website, you acknowledge that you are seeking information about us for your own information and use.
               </p>
 
               <p>
