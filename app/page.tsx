@@ -474,7 +474,6 @@ function ServicesSection() {
                         ,'Patent Opposition & Revocation'
                         ,'Patent Litigation Support'
                         ,'Patent Advisory & Consultation'
-                        ,'International Patent Filing (PCT)'
                         ,'Patent Enforcement Services'
       ]
     },
