@@ -372,6 +372,9 @@ function AboutSection() {
                 valuable technical insights for complex litigation and patent-related legal matters.
               </p>
               <p>
+                I have successfully filed Patent Applications in Hyderabad, Telangana, and have successfully represented clients working in various technological fields.
+              </p>
+              <p>
               Whether you are seeking patent filing, trademark registration, design protection, or strategic IP advice in Hyderabad, our experienced legal team delivers exceptional service tailored to your business needs.
               </p>
             </div>
@@ -441,7 +444,7 @@ function AboutSection() {
                 <h3 className="text-base sm:text-lg font-semibold text-gray-900">Download Resume</h3>
               </div>
               <p className="text-sm sm:text-base text-gray-600 mb-4">
-                View my Resume for legal services in Hyderabad, Telangana.
+                View my Resume.
               </p>
               <a
                 href="/Advocate_Challa_Vimalanand_Resume.pdf"
