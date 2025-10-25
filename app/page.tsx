@@ -249,21 +249,6 @@ export default function AdvocatePortfolio() {
                 </button>
               </div>
               
-              {/* SEO Internal Links */}
-              <div className="mt-6 flex flex-wrap gap-4 justify-center">
-                <a
-                  href="/civil-law-hyderabad"
-                  className="text-blue-600 hover:text-blue-800 text-sm font-medium underline"
-                >
-                  Civil Law Services in Hyderabad
-                </a>
-                <a
-                  href="/patent-agent-hyderabad"
-                  className="text-blue-600 hover:text-blue-800 text-sm font-medium underline"
-                >
-                  Patent Agent Services in Hyderabad
-                </a>
-              </div>
             </motion.div>
 
             <motion.div
@@ -543,7 +528,7 @@ function ServicesSection() {
   ];
 
   return (
-    <section id="services" className="py-12 sm:py-20 bg-gray-50">
+    <section id="services" className="py-8 sm:py-12 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
@@ -767,7 +752,7 @@ function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-12 sm:py-20 bg-gray-50">
+    <section id="contact" className="py-2 sm:py-2 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
