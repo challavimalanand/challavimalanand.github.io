@@ -248,6 +248,22 @@ export default function AdvocatePortfolio() {
                   View Services
                 </button>
               </div>
+              
+              {/* SEO Internal Links */}
+              <div className="mt-6 flex flex-wrap gap-4 justify-center">
+                <a
+                  href="/civil-law-hyderabad"
+                  className="text-blue-600 hover:text-blue-800 text-sm font-medium underline"
+                >
+                  Civil Law Services in Hyderabad
+                </a>
+                <a
+                  href="/patent-agent-hyderabad"
+                  className="text-blue-600 hover:text-blue-800 text-sm font-medium underline"
+                >
+                  Patent Agent Services in Hyderabad
+                </a>
+              </div>
             </motion.div>
 
             <motion.div
