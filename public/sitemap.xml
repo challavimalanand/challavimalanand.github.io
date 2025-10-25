@@ -36,4 +36,20 @@
     <priority>0.8</priority>
   </url>
   
+  <!-- Civil Law Services Page -->
+  <url>
+    <loc>https://challavimalanand.github.io/civil-law-hyderabad</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Patent Agent Services Page -->
+  <url>
+    <loc>https://challavimalanand.github.io/patent-agent-hyderabad</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
 </urlset> 
