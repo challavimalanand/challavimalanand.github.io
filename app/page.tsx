@@ -18,7 +18,8 @@ import {
   FileText,
   CheckCircle,
   Calendar,
-  Building
+  Building,
+  Download
 } from 'lucide-react';
 import WhatsAppButton from '../components/whatsapp-button';
 import DisclaimerPage from '../components/disclaimer-page';
@@ -429,6 +430,28 @@ function AboutSection() {
                   </div>
                 ))}
               </div>
+            </div>
+
+            {/* Download Resume Section */}
+            <div className="bg-blue-50 p-4 sm:p-6 rounded-xl border border-blue-200">
+              <div className="flex items-center space-x-3 mb-4">
+                <div className="bg-blue-100 p-2 rounded-lg">
+                  <Download className="h-5 w-5 sm:h-6 sm:w-6 text-blue-600" />
+                </div>
+                <h3 className="text-base sm:text-lg font-semibold text-gray-900">Download Resume</h3>
+              </div>
+              <p className="text-sm sm:text-base text-gray-600 mb-4">
+                View my Resume for legal services in Hyderabad, Telangana.
+              </p>
+              <a
+                href="/Advocate_Challa_Vimalanand_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center space-x-2 bg-blue-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200 shadow-sm hover:shadow-md"
+              >
+                <Download className="h-4 w-4 sm:h-5 sm:w-5" />
+                <span className="text-sm sm:text-base">Download Resume (PDF)</span>
+              </a>
             </div>
           </motion.div>
         </div>
