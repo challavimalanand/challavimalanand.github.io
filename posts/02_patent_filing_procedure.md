@@ -23,4 +23,4 @@ Filing a patent in India is the process of legally protecting your invention so 
 
 For filing patents and trademarks feel free to reach out to me – **Advocate Challa Vimalanand**
 
-ఎటువంటి న్యాయ కేసులు మరియు న్యాయ సలహాల కోసం అయినా, నన్ను నిరభ్యంతరంగా సంప్రదించండి – **అడ్వకేట్ చళ్ళ విహ్మలనంద్**
+మరిన్ని న్యాయ సూచనలు సలహాల కొరకు సంప్రదించగలరు – **అడ్వకేట్ చల్లా విమలానంద్**
