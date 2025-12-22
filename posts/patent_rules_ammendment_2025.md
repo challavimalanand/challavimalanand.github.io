@@ -1,6 +1,6 @@
 ---
 title: "Patents (Amendment) Rules, 2025"
-date: "22.12.2025"
+date: "2025-12-22"
 excerpt: "Exciting update in India's IP landscape!"
 ---
 
