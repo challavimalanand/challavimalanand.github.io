@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Image from 'next/image';
@@ -158,7 +159,7 @@ export default function AdvocatePortfolio() {
               <Scale className="h-8 w-8 text-blue-600" />
               <span className="text-xl font-bold text-gray-900">Advocate Challa Vimalanand</span>
             </div>
-            <div className="hidden md:flex space-x-8">
+            <div className="hidden md:flex items-center space-x-8">
               {[
                 { id: 'home', label: 'Home' },
                 { id: 'about', label: 'About' },
@@ -175,6 +176,12 @@ export default function AdvocatePortfolio() {
                   {item.label}
                 </button>
               ))}
+              <Link
+                href="/blog"
+                className="text-sm font-medium text-blue-600 hover:text-blue-700 border border-blue-100 px-3 py-1.5 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors"
+              >
+                Blog
+              </Link>
             </div>
             
             {/* Mobile Navigation */}
